@@ -1,0 +1,39 @@
+{
+  "name": "@mananjoshi/pi-session-plan",
+  "version": "0.1.0",
+  "description": "A session-scoped semantic deliverable plan for Pi, with a live widget and /todos view.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "session-plan",
+    "todos",
+    "deliverables"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manan30/pi-session-plan.git"
+  },
+  "homepage": "https://github.com/manan30/pi-session-plan#readme",
+  "bugs": {
+    "url": "https://github.com/manan30/pi-session-plan/issues"
+  },
+  "files": [
+    "session-plan.ts",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./session-plan.ts"
+    ],
+    "changelogPath": "./CHANGELOG.md"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}
