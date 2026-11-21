@@ -1,5 +1,5 @@
 {
-  "name": "@mananjoshi/pi-session-plan",
+  "name": "@manan_joshi/pi-session-plan",
   "version": "0.1.0",
   "description": "A session-scoped semantic deliverable plan for Pi, with a live widget and /todos view.",
   "keywords": [

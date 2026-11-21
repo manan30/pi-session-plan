@@ -46,7 +46,7 @@ compaction without creating another database on disk.
 Once published:
 
 ```bash
-pi install npm:@mananjoshi/pi-session-plan
+pi install npm:@manan_joshi/pi-session-plan
 ```
 
 For local testing:
